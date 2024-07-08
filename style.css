@@ -1309,7 +1309,7 @@ section {
     background-attachment: fixed;
     flex-wrap: wrap;
     padding: 10px;
- 
+
 
 }
 
@@ -1400,7 +1400,7 @@ section {
     height: 10vh;
     padding: 3vh;
     padding-left: -2vw;
-    
+
 
 }
 
@@ -1437,8 +1437,10 @@ section {
         height: 220px;
     }
 
-    .home-container {
-        width: 70vw;
+    .home-container{
+        margin-left: -160px;
+        margin-right: 15px;
+         width: 142%;
     }
 
     .profile-card:hover {
@@ -1463,9 +1465,11 @@ section {
     .profile-card {
         width: 200px;
         height: 200px;
-    } 
-    .home-container {
-        width: 80vw;
+    }
+
+   .home-container{
+        margin-left: 20px;
+         width: 96%;
     }
 
     .profile-card:hover {
@@ -1491,7 +1495,10 @@ section {
         width: 180px;
         height: 180px;
     }
-
+.home-container{
+        margin-left: 15px;
+        width: 96%;
+    }
     .profile-card:hover {
         height: 220px;
     }
@@ -1510,14 +1517,18 @@ section {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .profile-card {
-        width: 160px;
-        height: 160px;
+        width: 140px;
+        height: 140px;
+    }
+    .home-container{
+        margin-left: 20px;
+         width: 95%;
     }
 
     .profile-card:hover {
-        height: 200px;
+        height: 180px;
     }
 
     .caption h3 {
