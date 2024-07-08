@@ -1551,7 +1551,7 @@ section {
 
     .contain1 {
         
-        background-attachment: fixed;
+        
         width: 100%;
         height: 10vh;
         padding: 3vh;
@@ -1566,7 +1566,7 @@ section {
 
     .contain2 {
        
-        background-attachment: fixed;
+      
         width: 100%;
         height: 5vh;
         padding-left: 3vh;
